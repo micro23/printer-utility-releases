@@ -12,6 +12,8 @@ Find and add network printers with a few clicks.
 
 Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Light and dark appearances, keyboard controls, and Reduce Motion are supported.
 
+Setup keeps your selection intact. If you close the app while setup is running, you can keep it open or stop safely after the current step; completed additions are kept.
+
 The current build requires an Apple Silicon Mac and macOS 12 or later. This is an internal, ad-hoc-signed build and is not Apple-notarized. If macOS blocks opening it, contact your IT support team for installation assistance.
 
 The app checks for updates at launch and prompts when one is available. You can also choose **Check for Updates…** from the app menu. Updates are verified using the app's existing Sparkle signing key. No GitHub account or token is needed for downloads or update checks.
