@@ -10,7 +10,7 @@ Find and add network printers with a few clicks.
 4. Search by printer, building, or address, or choose a building in the sidebar.
 5. Select a printer using its checkbox, click **Add printer**, and keep or change its name. You can select several printers to add them together.
 
-Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Light and dark appearances, keyboard controls, and Reduce Motion are supported.
+Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Choose Classic or Modern in Settings. Classic follows your Mac’s light/dark appearance; Modern adds a photographic workspace. Keyboard controls, Reduce Motion, Reduce Transparency and Increase Contrast are supported.
 
 Setup keeps your selection intact. If you close the app while setup is running, you can keep it open or stop safely after the current step; completed additions are kept.
 
