@@ -7,7 +7,10 @@ Find and add network printers with a few clicks.
 1. Download and expand the ZIP file.
 2. Move the app to Applications.
 3. Open the app while connected to your organization's network or VPN.
-4. Choose your printer, click **Add printer**, and keep or change its name.
+4. Search by printer, building, or address, or choose a building in the sidebar.
+5. Select a printer using its checkbox, click **Add printer**, and keep or change its name. You can select several printers to add them together.
+
+Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Light and dark appearances, keyboard controls, and Reduce Motion are supported.
 
 The current build requires an Apple Silicon Mac and macOS 12 or later. This is an internal, ad-hoc-signed build and is not Apple-notarized. If macOS blocks opening it, contact your IT support team for installation assistance.
 
