@@ -8,7 +8,7 @@ Find and add network printers with a few clicks.
 2. Move the app to Applications.
 3. Open the app while connected to your organization's network or VPN.
 4. Search by printer, building, or address, or choose a building in the sidebar.
-5. Select a printer using its checkbox, click **Add printer**, and keep or change its name. You can select several printers to add them together.
+5. Click a printer row or its checkbox to select it, then click **Add printer** and keep or change its name. Select several printers to add them together; clicking one again removes only that printer from your selection.
 
 Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Modern is the default appearance. Choose Classic or Modern in Settings; saved choices are preserved across updates. Classic follows your Mac’s light/dark appearance; Modern adds a photographic workspace. Keyboard controls, Reduce Motion, Reduce Transparency and Increase Contrast are supported.
 
