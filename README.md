@@ -12,7 +12,9 @@ Find and add network printers with a few clicks.
 
 Building matching uses the local IP address range even on a wider shared network. Unmapped or conflicting ranges require a building choice; remote VPN addresses are excluded. A building choice checks only that building’s printers; browsing all buildings does not scan the whole directory.
 
-Search results automatically check their current connection status. A clear confirmation appears after a printer is added; printing a test page is always your choice. Modern is the default appearance. Choose Classic or Modern in Settings; saved choices are preserved across updates. Classic follows your Mac’s light/dark appearance; Modern adds a photographic workspace with a quieter printer list, clear selection accents, and distinct primary and disabled actions. Keyboard controls, Reduce Motion, Reduce Transparency and Increase Contrast are supported.
+Check nearby shows printers discovered on your network, including printers listed under other buildings. Its heading identifies the nearby view, and Check status checks only those displayed printers. Turn it off to return to your building.
+
+Search results automatically check their current connection status. Checks follow list order and progress stays visible while you select printers. A clear confirmation appears after a printer is added; printing a test page is always your choice. Modern is the default appearance. Choose Classic or Modern in Settings; saved choices are preserved across updates. Classic follows your Mac’s light/dark appearance; Modern adds a photographic workspace with a quieter printer list, clear selection accents, and distinct primary and disabled actions. Keyboard controls, Reduce Motion, Reduce Transparency and Increase Contrast are supported.
 
 Setup keeps your selection intact. If you close the app while setup is running, you can keep it open or stop safely after the current step; completed additions are kept.
 
