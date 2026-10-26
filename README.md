@@ -18,7 +18,7 @@ Search results automatically check their current connection status. Checks follo
 
 Setup keeps your selection intact. If you close the app while setup is running, you can keep it open or stop safely after the current step; completed additions are kept.
 
-The current build requires an Apple Silicon Mac and macOS 12 or later. Version 4.3.59 is signed with the organization's Apple Developer ID certificate, notarized by Apple, and includes a stapled notarization ticket. Gatekeeper acceptance is verified before publication. If managed-device policy blocks opening it, contact your IT support team for installation assistance.
+The current build requires an Apple Silicon Mac and macOS 12 or later. Version 4.3.60 is signed with the organization's Apple Developer ID certificate, notarized by Apple, and includes a stapled notarization ticket. Gatekeeper acceptance is verified before publication. If managed-device policy blocks opening it, contact your IT support team for installation assistance.
 
 The app checks for updates at launch and prompts when one is available. You can also choose **Check for Updates…** from the app menu. Updates are verified using the app's existing Sparkle signing key. No GitHub account or token is needed for downloads or update checks.
 
