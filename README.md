@@ -10,6 +10,8 @@ Find and add network printers with a few clicks.
 4. The app matches your local IP address to the building ranges in the printer directory and opens the matching building. Otherwise, choose your building when prompted, or browse all buildings. Search by printer, building, or address whenever needed.
 5. Click a printer row or its checkbox to select it, then click **Add printer** and keep or change its name. Select several printers to add them together; clicking one again removes only that printer from your selection.
 
+Click **Refresh** to load current printer names and inventory changes from the maintained directory. Routine directory edits do not require an app update.
+
 Building matching uses the local IP address range even on a wider shared network. Unmapped or conflicting ranges require a building choice; remote VPN addresses are excluded. A building choice checks only that building’s printers; browsing all buildings does not scan the whole directory.
 
 Check nearby shows printers discovered on your network, including printers listed under other buildings. Its heading identifies the nearby view, and Check status checks only those displayed printers. Turn it off to return to your building.
@@ -18,7 +20,7 @@ Search results automatically check their current connection status. Checks follo
 
 Setup keeps your selection intact. If you close the app while setup is running, you can keep it open or stop safely after the current step; completed additions are kept.
 
-The current build requires an Apple Silicon Mac and macOS 12 or later. Version 4.3.61 is signed with the organization's Apple Developer ID certificate, notarized by Apple, and includes a stapled notarization ticket. Gatekeeper acceptance is verified before publication. If managed-device policy blocks opening it, contact your IT support team for installation assistance.
+The current build requires an Apple Silicon Mac and macOS 12 or later. Version 4.3.64 is signed with the organization's Apple Developer ID certificate, notarized by Apple, and includes a stapled notarization ticket. Gatekeeper acceptance is verified before publication. If managed-device policy blocks opening it, contact your IT support team for installation assistance.
 
 The app checks for updates at launch and prompts when one is available. You can also choose **Check for Updates…** from the app menu. Updates are verified using the app's existing Sparkle signing key. No GitHub account or token is needed for downloads or update checks.
 
