@@ -12,6 +12,8 @@ Find and add network printers with a few clicks.
 
 Click **Refresh** to load current printer names and inventory changes from the maintained directory. Routine directory edits do not require an app update.
 
+Use **Add by address** for a printer with a known hostname, IP address, or printer URL. For older printers, enter the exact make and model from the printer label to help match a driver.
+
 Building matching uses the local IP address range even on a wider shared network. Unmapped or conflicting ranges require a building choice; remote VPN addresses are excluded. A building choice checks only that building’s printers; browsing all buildings does not scan the whole directory.
 
 Check nearby shows printers discovered on your network, including printers listed under other buildings. Its heading identifies the nearby view, and Check status checks only those displayed printers. Turn it off to return to your building.
