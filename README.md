@@ -1,8 +1,20 @@
-# Printer Utility for macOS
+# Printer Utility
 
 Find and add network printers with a few clicks.
 
-**[Download the latest app](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
+**[Download for macOS](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Mac release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
+
+**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-1/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-1)
+
+## Windows preview
+
+In File Explorer, select **Extract All**, then open **Printer Utility.exe** inside the extracted folder. Keep the files together. Python is included. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later.
+
+Connect to your organization's network or VPN, choose your building, select a printer, and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
+
+This portable preview is unsigned. Its interface, directory and simulated printer workflows were verified on macOS. Native Windows startup, changes to real queues and physical printing still await PC testing. If your organization's policy requires signed software, contact your IT team.
+
+## macOS
 
 1. Download and expand the ZIP file.
 2. Move the app to Applications.
