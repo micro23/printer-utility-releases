@@ -4,13 +4,17 @@ Find and add network printers with a few clicks.
 
 **[Download for macOS](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Mac release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
 
-**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-1/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-1)
+**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-2/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-2)
 
 ## Windows preview
 
 In File Explorer, select **Extract All**, then open **Printer Utility.exe** inside the extracted folder. Keep the files together. Python is included. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later.
 
+For a first test, open the application menu and choose **Check Windows setup…**. It shows the preview number and whether this PC can read its network adapters and print queues. **Copy results** copies a summary you can share with your support team. Then add one designated test printer, open its Windows queue and confirm one physical test page.
+
 Connect to your organization's network or VPN, choose your building, select a printer, and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
+
+Start with **Automatic** for a driverless network printer. If an older printer needs a specific Windows driver, choose **Connection options…** and use the connection type, queue name and driver supplied by your IT team. For a USB printer, **Find printers in Windows…** opens the Windows device setup. Refresh the app after Windows adds the printer.
 
 This portable preview is unsigned. Its interface, directory and simulated printer workflows were verified on macOS. Native Windows startup, changes to real queues and physical printing still await PC testing. If your organization's policy requires signed software, contact your IT team.
 
