@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "releases": [
+    {
+      "tag": "windows-preview-v4.4.2-1",
+      "size": 13914272,
+      "sha256": "ded688bb36720626cb764fd40e8e5cdf152b865ddcd7b31217de59b214a1fe67",
+      "signature": "OcPjQdWpvVQLMrKnT5PZFQv4JWemOQmHu+WXxC0De5In9MrRY2UpEPNFX1R8ZcPwck+Q43dYrzZTGnbIpH2KAQ=="
+    }
+  ]
+}
