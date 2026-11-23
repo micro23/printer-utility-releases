@@ -2,10 +2,10 @@
   "format": 1,
   "releases": [
     {
-      "tag": "windows-preview-v4.4.2-1",
-      "size": 13914272,
-      "sha256": "ded688bb36720626cb764fd40e8e5cdf152b865ddcd7b31217de59b214a1fe67",
-      "signature": "OcPjQdWpvVQLMrKnT5PZFQv4JWemOQmHu+WXxC0De5In9MrRY2UpEPNFX1R8ZcPwck+Q43dYrzZTGnbIpH2KAQ=="
+      "tag": "windows-preview-v4.4.3-1",
+      "size": 13914913,
+      "sha256": "009064b81f528a79f842c86bba797b3217d977f2db24960002ccf9d51d4cc496",
+      "signature": "nTL06jo5yXAyLWTGwNPjElNPyMtIzRF2X+AympBxa+NK5or/wbCzKtk9dljpotq4K56tUGf+qJnl0b+jjVSGCQ=="
     }
   ]
 }
