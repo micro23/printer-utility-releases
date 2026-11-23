@@ -4,19 +4,21 @@ Find and add network printers with a few clicks.
 
 **[Download for macOS](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Mac release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
 
-**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-3/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-3)
+**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.1-1/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.1-1)
 
-## Windows 4.4.0 preview 3
+## Windows 4.4.1 preview 1
 
 In File Explorer, select **Extract All**, then open **Printer Utility.exe** inside the extracted folder. Keep the files together. Python is included. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later.
 
-For a first test, open the application menu and choose **Check Windows setup…**. Confirm that it shows **4.4.0 preview 3**. It checks adapter and queue access, direct driverless setup and eligible installed drivers for older printers. It also shows when Windows protected print mode blocks those older drivers. Use **Copy results** to save the summary. Add one designated test printer, compare its driver and address in its Windows queue, and send one test page. Check for that page at the printer.
+For a first test, open the application menu and choose **Check Windows setup…**. Confirm that it shows **4.4.1 preview 1**. It checks adapter and queue access, direct driverless setup and eligible installed drivers for older printers. It also shows when Windows protected print mode blocks those older drivers. Use **Copy results** to save the summary. To test before installation, select a supported printer and choose **Print test page**. Confirm once and check for the page at the device. The direct test supports compatible IPP printers and reviewed PostScript devices, including the supported Canon C350 configuration. After installation, **Print test page** tests the Windows driver. For a matching physical printer on a standard RAW port, **Printer → Print test page directly…** also lets you retest the device directly.
 
-Connect to your organization's network or VPN, choose your building, select a printer, and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
+The window opens centered in the usable area of the display. Connect to your organization's network or VPN. On Wi-Fi, check the suggested buildings, select yours and choose **Show printers**. **Choose building…** lets you change the selection. You can browse while the app reads installed queues. Once ready, select a printer and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
+
+If **Add printer…** finds a compatible local driver package, review its name and choose **Install driver**. After Windows confirms installation, review the printer name and choose **Add printer**. Driver installation follows the PC’s usual permissions. If a driver is missing, **Get driver help…** opens the Windows driver wizard, Windows Update or manufacturer support. Return to the app and choose **Check again**.
 
 Start with **Automatic** for a driverless network printer. If an older printer needs a specific Windows driver, choose **Connection options…** and use the connection type, queue name and driver supplied by your IT team. For a USB printer, **Find printers in Windows…** opens the Windows device setup. Refresh the app after Windows adds the printer.
 
-This portable preview is unsigned. Its interface, directory and simulated printer workflows were verified on macOS. Native Windows startup, changes to real queues and physical printing still await PC testing. If your organization's policy requires signed software, contact your IT team.
+This portable preview is unsigned. Its interface, directory and simulated printer workflows were verified on macOS. The updated window placement, real queue changes and physical output still require testing on a PC. If your organization's policy requires signed software, contact your IT team.
 
 ## macOS
 
