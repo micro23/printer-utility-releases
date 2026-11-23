@@ -4,15 +4,15 @@ Find and add network printers with a few clicks.
 
 **[Download for macOS](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Mac release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
 
-**[Download the Windows installer](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.4-1/Printer-Utility-Setup-x64.exe)** · [Windows release notes and checksums](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.4-1)
+**[Download the Windows installer](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.4-2/Printer-Utility-Setup-x64.exe)** · [Windows release notes and checksums](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.4-2)
 
-## Windows 4.4.4 preview 1
+## Windows 4.4.4 preview 2
 
 Run **Printer-Utility-Setup-x64.exe** on your Windows 11 x64 PC. Setup installs the app for your account. After setup, open **Printer Utility** from Start. If you were using a portable copy, close it before opening the installed app. Your printer queues and saved preferences carry over.
 
-For future releases, choose **Check for updates… → Update and restart**. To update offline, close the app and run a newer setup file. To remove the installed app, use **Settings → Apps → Installed apps → Printer Utility → Uninstall**. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later. Python is included. A [portable ZIP](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.4-1/Printer-Utility-Windows-x64.zip) is also available.
+For future releases, choose **Check for updates… → Update and restart**. To update offline, close the app and run a newer setup file. To remove the installed app, use **Settings → Apps → Installed apps → Printer Utility → Uninstall**. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later. Python is included. A [portable ZIP](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.4-2/Printer-Utility-Windows-x64.zip) is also available.
 
-For a first test, open the application menu and choose **Check Windows setup…**. Confirm that it shows **4.4.4 preview 1**. It checks adapter and queue access, direct driverless setup and eligible installed drivers for older printers. It also shows when Windows protected print mode blocks those older drivers. Use **Copy results** to save the summary. To test before installation, select a supported printer and choose **Print test page**. Confirm once and check for the page at the device. The direct test supports compatible IPP printers and reviewed PostScript devices, including the supported Canon C350 configuration. After installation, **Print test page** tests the Windows driver. For a matching physical printer on a standard RAW port, **Printer → Print test page directly…** also lets you retest the device directly.
+For a first test, open the application menu and choose **Check Windows setup…**. Confirm that it shows **4.4.4 preview 2**. It checks adapter and queue access, direct driverless setup and eligible installed drivers for older printers. It also shows when Windows protected print mode blocks those older drivers. Use **Copy results** to save the summary. To test before installation, select a supported printer and choose **Print test page**. Confirm once and check for the page at the device. The direct test supports compatible IPP printers and reviewed PostScript devices, including the supported Canon C350 configuration. After installation, **Print test page** sends a one-page document through the selected Windows queue and driver. For a matching physical printer on a standard RAW port, **Printer → Print test page directly…** also lets you retest the device directly.
 
 The window opens centered in the usable area of the display. Connect to your organization's network or VPN. On Wi-Fi, check the suggested buildings, select yours and choose **Show printers**. **Choose building…** lets you change the selection. You can browse while the app reads installed queues. Once ready, select a printer and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
 
@@ -20,7 +20,7 @@ If **Add printer…** finds a compatible local driver package, review its name a
 
 Start with **Automatic** for a driverless network printer. If an older printer needs a specific Windows driver, choose **Connection options…** and use the connection type, queue name and driver supplied by your IT team. For a USB printer, **Find printers in Windows…** opens the Windows device setup. Refresh the app after Windows adds the printer.
 
-The update archive has a publisher signature checked by the app. The preview installer and app do not have a Windows code-signing certificate. Its interface, directory and simulated printer workflows were verified on macOS. The updated window placement, real queue changes and physical output still require testing on a PC. If your organization's policy requires signed software, contact your IT team.
+The update archive has a publisher signature checked by the app. The preview installer and app do not have a Windows code-signing certificate. A Windows tester confirmed physical output from the direct branded test and from a regular document sent to an installed Canon queue. Physical output from preview 2’s revised installed-queue test still needs confirmation. If your organization's policy requires signed software, contact your IT team.
 
 ## macOS
 
