@@ -4,13 +4,13 @@ Find and add network printers with a few clicks.
 
 **[Download for macOS](https://github.com/micro23/printer-utility-releases/releases/latest/download/Printer-Utility.zip)** · [Mac release notes](https://github.com/micro23/printer-utility-releases/releases/latest)
 
-**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-2/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-2)
+**[Download the Windows 11 x64 preview](https://github.com/micro23/printer-utility-releases/releases/download/windows-preview-v4.4.0-3/Printer-Utility-Windows-x64.zip)** · [Windows preview notes and checksum](https://github.com/micro23/printer-utility-releases/releases/tag/windows-preview-v4.4.0-3)
 
-## Windows preview
+## Windows 4.4.0 preview 3
 
 In File Explorer, select **Extract All**, then open **Printer Utility.exe** inside the extracted folder. Keep the files together. Python is included. The app uses the Microsoft Edge WebView2 Runtime and .NET Framework 4.8 or later.
 
-For a first test, open the application menu and choose **Check Windows setup…**. It shows the preview number and whether this PC can read its network adapters and print queues. **Copy results** copies a summary you can share with your support team. Then add one designated test printer, open its Windows queue and confirm one physical test page.
+For a first test, open the application menu and choose **Check Windows setup…**. Confirm that it shows **4.4.0 preview 3**. It checks adapter and queue access, direct driverless setup and eligible installed drivers for older printers. It also shows when Windows protected print mode blocks those older drivers. Use **Copy results** to save the summary. Add one designated test printer, compare its driver and address in its Windows queue, and send one test page. Check for that page at the printer.
 
 Connect to your organization's network or VPN, choose your building, select a printer, and click **Add printer…**. You can also enter a printer address or a Windows print share. Installed printers have shortcuts to the Windows queue and printing preferences.
 
